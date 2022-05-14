@@ -7,16 +7,16 @@ def main():
     NO='no'
 
     opt = bot.confirm(
-            'Quiere la pregunta',
-            'Titulos jajaja',
+            'Texto Principal',
+            'Titulo de la ventana',
             [SI, NO]
 )
 
     if opt == SI:
-        print('Sisa mi perro')
+        print('se escogio si')
 
     elif opt == NO:
-        print('Nocas loca')
+        print('se escogio no')
 
 
 if __name__ == '__main__':
